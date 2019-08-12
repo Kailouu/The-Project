@@ -7,6 +7,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "lodash": "^4.17.15",
+    "three": "^0.107.0",
     "three-js": "^79.0.0"
   },
   "devDependencies": {
@@ -14,8 +15,8 @@
     "webpack-cli": "^3.3.6"
   },
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "webpack"  
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
