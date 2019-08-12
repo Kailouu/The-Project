@@ -1,7 +1,8 @@
-import THREELib from "three";
+// import THREELib from "three";
 
 function component() {
-    var THREE = THREELib();
+    var THREE = require('three');
+    // var THREE = THREELib();
 
     const scene = new THREE.Scene();
 
@@ -20,7 +21,7 @@ function component() {
     camera.position.z = 5;
 }
 
-var animate = function() {
+function animate() {
     requestAnimationFrame( animate );
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
