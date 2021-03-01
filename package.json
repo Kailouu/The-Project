@@ -8,7 +8,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "nodemon": "^1.19.1",
-    "three": "^0.107.0",
+    "three": "^0.125.0",
     "three-js": "^79.0.0"
   },
   "devDependencies": {
